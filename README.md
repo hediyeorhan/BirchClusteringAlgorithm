@@ -23,3 +23,30 @@ BIRCH algoritmasının çalışması iki aşamada gerçekleşir:
 BIRCH tek başına bir kümeleme algoritması değil, verinin ana belleğe sığmayacak kadar büyük boyutlarda olduğu durumlarda veritabanının ana belleğe sığacak bir modelini oluşturmaya imkan veren bir algoritmadır. Bu yüzden BIRCH algoritması diğer kümeleme yöntemleri için ön işlem aşaması olarak da kullanılır. 
 BIRCH algoritmasının avantajları: Veritabanı yapısını ana belleğe sığdırdığı için I/O miktarını azaltarak performansı arttırır, tek bir tarama ile veritabanının modelini oluşturabilir, hesaplanabilir karmaşıklığı O(n) olduğu için çok fazla işlem gücü gerektirmez. 
 Dezavantajları: Yalnızca sayısal verilerde kullanılabilir, verilerin okunma sırasına duyarlıdır, tüm hiyerarşik algoritmalarda olduğu gibi sadece dairesel kümeleri bulabilir.
+
+Örnek bir veri seti üzerinden birch kümeleme algoritmasının çalışma mantığını adım adım inceleyelim : 
+
+![image](https://user-images.githubusercontent.com/59260491/151447305-40dfdeeb-a222-4860-9d71-e6d9fd476dd9.png)
+
+![image](https://user-images.githubusercontent.com/59260491/151447339-44cc8b5c-df14-45f9-a9fe-014b34b5ceea.png)
+
+![image](https://user-images.githubusercontent.com/59260491/151447364-e14b7bad-c715-4100-954b-b6cfcb69e6b2.png)
+
+![image](https://user-images.githubusercontent.com/59260491/151447400-c6a8e095-d1a9-4b7b-9d64-46cd1890ac8c.png)
+
+![image](https://user-images.githubusercontent.com/59260491/151447421-a6a62e3c-2e24-423a-a8d0-b5d297a26037.png)
+
+![image](https://user-images.githubusercontent.com/59260491/151447437-1abb2832-86bd-4bb8-bf2b-1d86c6b3a389.png)
+
+![image](https://user-images.githubusercontent.com/59260491/151447463-748cbb5e-d9e3-45c2-a667-c80e48f81342.png)
+
+KAYNAKÇA : 
+•	Zhang T., Ramakrishman R., Livny M., BIRCH: An Effective Data Clustering Method for Very Large Databases, ACM SIGMOD Record, Vol. 25, No. 2, pages 103-114, 1996.
+•	(Lecture Notes in Computer Science 4165 _ Information Systems and Applications, incl. Internet_Web, and HCI) Chao Yao, Lingyu Wang, Sean X. Wang, Sushil Jajodia (auth.), Willem Jonker, Milan Petković
+•	https://scikit-learn.org/stable/modules/generated/sklearn.cluster.Birch.html
+•	http://dspace.kocaeli.edu.tr:8080/xmlui/bitstream/handle/11493/973/197927.pdf?sequence=1&isAllowed=y
+•	https://www.geeksforgeeks.org/ml-birch-clustering/
+•	http://acikerisim.pau.edu.tr/xmlui/bitstream/handle/11499/1219/Mustafa%20Se%C3%A7kin%20Durmu%C5%9F.pdf?sequence=1&isAllowed=y
+
+
+
