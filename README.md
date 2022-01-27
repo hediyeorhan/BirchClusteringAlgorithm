@@ -1,4 +1,4 @@
-BIRCH KÜMELEME ALGORİTMASI
+<h1 align="center", color="red">BIRCH KÜMELEME ALGORİTMASI</h1>
 
 
 Kümeleme Nedir?
@@ -41,11 +41,17 @@ Dezavantajları: Yalnızca sayısal verilerde kullanılabilir, verilerin okunma 
 ![image](https://user-images.githubusercontent.com/59260491/151447463-748cbb5e-d9e3-45c2-a667-c80e48f81342.png)
 
 KAYNAKÇA : 
+
 •	Zhang T., Ramakrishman R., Livny M., BIRCH: An Effective Data Clustering Method for Very Large Databases, ACM SIGMOD Record, Vol. 25, No. 2, pages 103-114, 1996.
+
 •	(Lecture Notes in Computer Science 4165 _ Information Systems and Applications, incl. Internet_Web, and HCI) Chao Yao, Lingyu Wang, Sean X. Wang, Sushil Jajodia (auth.), Willem Jonker, Milan Petković
+
 •	https://scikit-learn.org/stable/modules/generated/sklearn.cluster.Birch.html
+
 •	http://dspace.kocaeli.edu.tr:8080/xmlui/bitstream/handle/11493/973/197927.pdf?sequence=1&isAllowed=y
+
 •	https://www.geeksforgeeks.org/ml-birch-clustering/
+
 •	http://acikerisim.pau.edu.tr/xmlui/bitstream/handle/11499/1219/Mustafa%20Se%C3%A7kin%20Durmu%C5%9F.pdf?sequence=1&isAllowed=y
 
 
