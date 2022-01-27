@@ -1,11 +1,11 @@
-<h1 align="center", color:"red">BIRCH KÜMELEME ALGORİTMASI</h1>
+<h1 align="center">BIRCH KÜMELEME ALGORİTMASI</h1>
 
 
-Kümeleme Nedir?
+<h2>Kümeleme Nedir?</h2>
 Clustering ( Kümeleme ) bir veri setinde benzer özellikler gösteren verilerin gruplara ayrılmasına denir. Aynı küme içinde benzerlikler fazla, kümeler arası benzerlikler azdır. Unsupervised Learning ( Gözetimsiz öğrenme ) vardır yani önceden herhangi bir bilgi verilmez.
 Kümelemenin amacı, bir grup etiketlenmemiş veride içsel gruplamayı belirlemektir.
 
-Birch Kümeleme Algoritması
+<h2>Birch Kümeleme Algoritması</h2>
 BIRCH (Balanced Iterative Reducing and Clustering using Hierarchies) algoritması özellikle büyük boyutlu verilerin kümelenmesi için tasarlanmıştır.Hiyerarşik kümeleme gerçekleştirmek için kullanılan denetimsiz bir veri madenciliği algoritmasıdır. Artımlı ve sıradüzensel bir teknik kullanılmaktadır. Kümeleme için gerekli bilgiyi yakalama amacıyla bir ağaç oluşturulur. BIRCH iki önemli kavram üzerine kurulmuştur: Küme niteleyici (clustering feature) ve küme niteleyici ağacı (clustering feature tree).  Hem bellek, hem de zaman bakımından doğrusaldır. Algoritmanın etkili çalışmasında eşik değerinin seçimi çok önemlidir. Eğer eşik değeri uygun değilse ağacın tekrar tekrar baştan oluşturulması gerekebilir. 
 Birch Algoritma Karmaşıklığı : O(n)
 Küme niteleyici, küçük gruplar halindeki veri nesnelerinden oluşturulan alt kümeleri ana bellekte temsil edecek olan üç adet parametreden oluşan yapıdır. 
@@ -24,7 +24,7 @@ BIRCH tek başına bir kümeleme algoritması değil, verinin ana belleğe sığ
 BIRCH algoritmasının avantajları: Veritabanı yapısını ana belleğe sığdırdığı için I/O miktarını azaltarak performansı arttırır, tek bir tarama ile veritabanının modelini oluşturabilir, hesaplanabilir karmaşıklığı O(n) olduğu için çok fazla işlem gücü gerektirmez. 
 Dezavantajları: Yalnızca sayısal verilerde kullanılabilir, verilerin okunma sırasına duyarlıdır, tüm hiyerarşik algoritmalarda olduğu gibi sadece dairesel kümeleri bulabilir.
 
-Örnek bir veri seti üzerinden birch kümeleme algoritmasının çalışma mantığını adım adım inceleyelim : 
+<h2>Örnek bir veri seti üzerinden birch kümeleme algoritmasının çalışma mantığını adım adım inceleyelim : </h2>
 
 ![image](https://user-images.githubusercontent.com/59260491/151447305-40dfdeeb-a222-4860-9d71-e6d9fd476dd9.png)
 
@@ -40,7 +40,7 @@ Dezavantajları: Yalnızca sayısal verilerde kullanılabilir, verilerin okunma 
 
 ![image](https://user-images.githubusercontent.com/59260491/151447463-748cbb5e-d9e3-45c2-a667-c80e48f81342.png)
 
-KAYNAKÇA : 
+<h2>KAYNAKÇA :</h2> 
 
 •	Zhang T., Ramakrishman R., Livny M., BIRCH: An Effective Data Clustering Method for Very Large Databases, ACM SIGMOD Record, Vol. 25, No. 2, pages 103-114, 1996.
 
