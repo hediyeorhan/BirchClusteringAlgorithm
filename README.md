@@ -1,4 +1,4 @@
-<h1 align="center", color="red">BIRCH KÜMELEME ALGORİTMASI</h1>
+<h1 align="center", color:"red">BIRCH KÜMELEME ALGORİTMASI</h1>
 
 
 Kümeleme Nedir?
