@@ -10,6 +10,7 @@ Birch Algoritma Karmaşıklığı : O(n)
 Küme niteleyici, küçük gruplar halindeki veri nesnelerinden oluşturulan alt kümeleri ana bellekte temsil edecek olan üç adet parametreden oluşan yapıdır. 
 Kullandığımız formüller : 
 
+
 ![image](https://user-images.githubusercontent.com/59260491/151447008-59883def-6b7d-4387-a061-fc209cd7dd05.png)
 
 BIRCH algoritmasının çalışması iki aşamada gerçekleşir: 
