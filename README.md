@@ -1,5 +1,4 @@
-<h1 style="color:red">BIRCH KÜMELEME ALGORİTMASI</h1>
-<p style="color:red;">This is a paragraph.</p>
+<h1 align="center">BIRCH KÜMELEME ALGORİTMASI</h1>
 
 <h2>Kümeleme Nedir?</h2>
 Clustering ( Kümeleme ) bir veri setinde benzer özellikler gösteren verilerin gruplara ayrılmasına denir. Aynı küme içinde benzerlikler fazla, kümeler arası benzerlikler azdır. Unsupervised Learning ( Gözetimsiz öğrenme ) vardır yani önceden herhangi bir bilgi verilmez.
